@@ -20,7 +20,7 @@ The title field is required, but the description will be included below the titl
 
 To input a search query, select either the *Edit* button or the *Advanced edit* button. 
 
-If you select *Edit*, a sidebar will open allowing you to search full-text, search by value, search by class, search by template, search by item set, or search by owner. You can either *Preview*, *Reset*, or *Apply* your search by selecting the corresponding button at the bottom of the search sidebar. 
+If you select *Edit*, the drawer will open allowing you to search full-text, search by value, search by class, search by template, search by item set, or search by owner. You can either *Preview*, *Reset*, or *Apply* your search by selecting the corresponding button at the bottom of the search sidebar. 
 
 If you select *Advanced edit*, you will only need to fill in the provided textbook. To save your search query click *Apply*, or you can *Cancel* your search.
 
