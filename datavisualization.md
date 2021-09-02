@@ -44,7 +44,7 @@ The options under "Dataset configuration" will reflect your selection of one of 
 + Select the item sets from the dropdown menu.
 + If you do not complete this step, you will receive an error when generating your data set.
 
-**DOUBLE CHECK RE. DROPDOWN IMAGE**
+![dataVis_itemsetconfig](https://user-images.githubusercontent.com/84726696/131908661-39540a21-2cd7-43e2-a8fe-ecc4c87a5697.png)
 
 #### Count of items with classes
 + Click inside the "Classes" field.
