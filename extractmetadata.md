@@ -1,27 +1,55 @@
 # Extract Metadata
 
-Extract embedded metadata from files. Once installed and active, this module has
-the following features:
+Once installed and active, the Extract Metadata module allows site administrators to extract embedded metadata from file. 
 
-- When configuring the module, the user can:
-    - View and enable/diable extractors;
-    - View and enable/diable mappers;
-    - Configure the metadata crosswalk for the JSON Pointer mapper (if enabled).
-- When adding a media, the module will automatically:
-    - Extract metadata from the file using enabled;
-    - Save the metadata alongside the media;
-    - Map metadata to resource values.
-- When editing a media/item or batch editing media/item, the user can choose to
-  perform a number of actions:
-    - Refresh metadata: (re)extract metadata from files;
-    - Refresh and map metadata: (re)extract metadata from files and map metadata
-      to resource values;
-    - Map metadata: Map extracted metadata to resource values;
-    - Delete metadata: Delete extracted metadata.
-- When viewing and editing a media, the user can see the extracted metadata in the
-  "Extract metadata" section.
+## Configuring the module
 
-## Extractors:
+When configuring the module, you can:
++ View and enable/disable extractors;
++ View and enable/disable mappers;
++ Configure the metadata crosswalk for the JSON Pointer mapper (if enabled).
+    
+You can choose from four different extractors, including ExifTool, Tika, Exif, and getID3. 
+
+For mappers you can either select to enable no mappers or JSON Pointer. If you decided to use the JSON pointer mapper, you will need to define the metadata crosswalk. You will be asked to select the Resource, Extractor, and Property from a dropdown menu as well as provide a Pointer formatted using a JSON pointer as defined by the [IETF standard](https://datatracker.ietf.org/doc/html/rfc6901). If you would like to replace the metadata values through this pointer, make sure to select the checkbox to the right of these fields.
+
+When you are finished configuring the module, click the Submit button in the upper right corner of the screen.
+
+![extractmetadata_configsubmit](https://user-images.githubusercontent.com/84726696/138010740-3a7c3697-25bb-4d66-8576-bfff71fdb60d.png)
+
+## Adding media
+
+When adding media, the module will automatically:
++ Extract metadata from the file using enabled extractors;
++ Save the metadata alongside the media;
++ Map metadata to resource values.
+
+Once you've added media to your selected item, you can add the extracted metadata to the item's metadata. You will be able to add a new field for the extracted metadata from the drawer on the right side of the screen labeled "Click on a property to add it to the edit panel." Click the arrow next to "Extract Metadata" to view the 23 options and select the one that is most appropriate for the media you have added.
+
+![extractmetadata_addproperty](https://user-images.githubusercontent.com/84726696/138015034-f386fd9a-67a7-45a2-acf3-c81f73fbb6f7.png)
+
+## Editing media and items
+
+When editing a media/item or batch editing media/item, the user can choose to perform a number of actions:
++ Refresh metadata: (re)extract metadata from files;
++ Refresh and map metadata: (re)extract metadata from files and map metadata to resource values;
++ Map metadata: Map extracted metadata to resource values;
++ Delete metadata: Delete extracted metadata.
+
+You can access these options on the Extract Metadata tab on the item edit screen.
+
+![extractmetadata_tab](https://user-images.githubusercontent.com/84726696/138012187-20094e98-9913-4777-95f6-09571f27264c.png)
+
+Then, you can select one of the four options from the dropdown menu.
+
+![extractmetadata_tabdropdown](https://user-images.githubusercontent.com/84726696/138012355-dda4f40e-cae8-406b-a5b3-32b98bf695a0.png)
+
+Be sure to click the "Save" button in the top right corner of the screen.
+
+When viewing and editing a media, the user can see the extracted metadata in the "Extract metadata" section.
+
+## Extractors:![extractmetadata_addproperty](https://user-images.githubusercontent.com/84726696/138015021-add851aa-0968-4ffc-80d7-e37ea790e57f.png)
+
 
 Extractors extract metadata from files. Note that extractors must be enabled on
 the module configuration page. This module comes with four extractors, but more
@@ -77,17 +105,3 @@ saved this map, perform the "Map metadata" action as described above and, if you
 JPEG file includes DateTimeOriginal, the media/item should now have a "Date Created"
 value.
 
-# Copyright
-
-ExtractMetadata is Copyright © 2019-present Corporation for Digital Scholarship,
-Vienna, Virginia, USA http://digitalscholar.org
-
-The Corporation for Digital Scholarship distributes the Omeka source code
-under the GNU General Public License, version 3 (GPLv3). The full text
-of this license is given in the license file.
-
-The Omeka name is a registered trademark of the Corporation for Digital Scholarship.
-
-Third-party copyright in this distribution is noted where applicable.
-
-All rights not expressly granted are reserved.
