@@ -48,8 +48,7 @@ Be sure to click the "Save" button in the top right corner of the screen.
 
 When viewing and editing a media, the user can see the extracted metadata in the "Extract metadata" section.
 
-## Extractors:![extractmetadata_addproperty](https://user-images.githubusercontent.com/84726696/138015021-add851aa-0968-4ffc-80d7-e37ea790e57f.png)
-
+## Extractors:
 
 Extractors extract metadata from files. Note that extractors must be enabled on
 the module configuration page. This module comes with four extractors, but more
