@@ -29,11 +29,9 @@ Once you've added media to an item, you can add the extracted metadata to the it
 
 ![extractmetadata_addproperty](https://user-images.githubusercontent.com/84726696/138015034-f386fd9a-67a7-45a2-acf3-c81f73fbb6f7.png)
 
-After adding the new field, you will be able to select one of the buttons to input Text, select an Omeka resource, or input a URI to add the media's extracted metadata to the item.
+After adding the new field, you will be able to select one of the buttons to input Text, select an Omeka resource, or input a URI to add the media's extracted metadata to the item. Be sure to save your changes. To delete the field, select the trash can button to the right of the field.
 
 ![extractmetadata_itemedit](https://user-images.githubusercontent.com/84726696/138017344-9bcfc460-aefe-44c7-9668-5d6706fce2b3.png)
-
-Be sure to save your changes. To delete the field, select the trash can button to the right of the field.
 
 You can view the extracted metadata under the Extract Metadata tab on the item edit page.
 
