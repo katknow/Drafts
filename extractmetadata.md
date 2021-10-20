@@ -28,6 +28,12 @@ Once you've added media to your selected item, you can add the extracted metadat
 
 ![extractmetadata_addproperty](https://user-images.githubusercontent.com/84726696/138015034-f386fd9a-67a7-45a2-acf3-c81f73fbb6f7.png)
 
+After adding the new field, you will be able to select one of the buttons to input Text, select an Omeka resource, or input a URI.
+
+![extractmetadata_itemedit](https://user-images.githubusercontent.com/84726696/138017344-9bcfc460-aefe-44c7-9668-5d6706fce2b3.png)
+
+Be sure to save your changes. To delete the field, select the trash can button to the right of the field.
+
 ## Editing media and items
 
 When editing a media/item or batch editing media/item, the user can choose to perform a number of actions:
