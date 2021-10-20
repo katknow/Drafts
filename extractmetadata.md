@@ -17,6 +17,7 @@ When you are finished configuring the module, click the Submit button in the upp
 
 ![extractmetadata_configsubmit](https://user-images.githubusercontent.com/84726696/138010740-3a7c3697-25bb-4d66-8576-bfff71fdb60d.png)
 
+
 ## Adding media
 
 When adding media, the module will automatically:
@@ -34,7 +35,14 @@ After adding the new field, you will be able to select one of the buttons to inp
 
 Be sure to save your changes. To delete the field, select the trash can button to the right of the field.
 
-You can view the extracted metadata
+You can view the extracted metadata under the Extract Metadata tab on the item edit page.
+
+![extractmetadata_tab](https://user-images.githubusercontent.com/84726696/138012187-20094e98-9913-4777-95f6-09571f27264c.png)
+
+Alternatively, you can click the link in your newly added field to view the media page with extracted metadata.
+
+![extractmetadata_medialink](https://user-images.githubusercontent.com/84726696/138019680-ffe4e6c2-7f3e-4f7e-8c46-05882611c1c6.png)
+
 
 ## Editing media and items
 
@@ -45,8 +53,6 @@ When editing a media/item or batch editing media/item, the user can choose to pe
 + Delete metadata: Delete extracted metadata.
 
 You can access these options on the Extract Metadata tab on the item edit screen.
-
-![extractmetadata_tab](https://user-images.githubusercontent.com/84726696/138012187-20094e98-9913-4777-95f6-09571f27264c.png)
 
 Then, you can select one of the four options from the dropdown menu.
 
