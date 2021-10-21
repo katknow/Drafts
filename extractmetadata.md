@@ -1,6 +1,6 @@
 # Extract Metadata
 
-Once installed and active, the Extract Metadata module allows site administrators to extract embedded metadata from file. 
+Once installed and active, the Extract Metadata module allows site administrators to extract embedded metadata from media. 
 
 ## Configuring the module
 
@@ -61,7 +61,7 @@ When viewing and editing a media, the user can see the extracted metadata and pe
 ![extractmetadata_batchedit](https://user-images.githubusercontent.com/84726696/138021786-dd736cda-aa92-4ec8-a498-1b43ae483a16.png)
 
 
-## Extractors:
+## Extractors
 
 Extractors extract metadata from files. Note that extractors must be enabled on the module configuration page. This module comes with four extractors, but more can be added depending on your need.
 
