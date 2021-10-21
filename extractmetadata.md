@@ -25,14 +25,6 @@ When adding media, the module will automatically:
 + Save the metadata alongside the media;
 + Map metadata to resource values.
 
-Once you've added media to an item, you can add the extracted metadata to the item's metadata under the Values tab. You will be able to add a new field for the extracted metadata from the drawer on the right side of the screen labeled "Click on a property to add it to the edit panel." Click the arrow next to "Extract Metadata" to view the 23 options and select the one that is most appropriate for the media you have added.
-
-![extractmetadata_addproperty](https://user-images.githubusercontent.com/84726696/138015034-f386fd9a-67a7-45a2-acf3-c81f73fbb6f7.png)
-
-After adding the new field, you will be able to select one of the buttons to input Text, select an Omeka resource, or input a URI to add the media's extracted metadata to the item. Be sure to save your changes. To delete the field, select the trash can button to the right of the field.
-
-![extractmetadata_itemedit](https://user-images.githubusercontent.com/84726696/138017344-9bcfc460-aefe-44c7-9668-5d6706fce2b3.png)
-
 You can view the extracted metadata under the Extract Metadata tab on the item edit page.
 
 ![extractmetadata_tab](https://user-images.githubusercontent.com/84726696/138012187-20094e98-9913-4777-95f6-09571f27264c.png)
