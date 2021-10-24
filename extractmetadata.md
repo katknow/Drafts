@@ -25,14 +25,6 @@ When adding media, the module will automatically:
 + Save the metadata alongside the media;
 + Map metadata to resource values.
 
-You can view the extracted metadata under the Extract Metadata tab on the item edit page.
-
-![extractmetadata_tab](https://user-images.githubusercontent.com/84726696/138012187-20094e98-9913-4777-95f6-09571f27264c.png)
-
-Alternatively, you can click the link in your newly added field to view the media page with extracted metadata.
-
-![extractmetadata_medialink](https://user-images.githubusercontent.com/84726696/138019680-ffe4e6c2-7f3e-4f7e-8c46-05882611c1c6.png)
-
 
 ## Editing media and items
 
