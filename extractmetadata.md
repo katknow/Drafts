@@ -25,6 +25,7 @@ When adding media, the module will automatically:
 + Save the metadata alongside the media;
 + Map metadata to resource values.
 
+You can view the extracted metadata on the media show and edit pages.
 
 ## Editing media and items
 
