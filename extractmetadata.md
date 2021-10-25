@@ -41,7 +41,7 @@ You can access these options on the Extract Metadata tab on the item edit screen
 
 Be sure to click the "Save" button in the top right corner of the screen. 
 
-When viewing and editing a media, the user can see the extracted metadata and perform actions in the "Extract metadata" tab of individual items. However, you can also perform these actions via batch editing. After selecting the items you'd like to batch edit and going to the batch edit page, you can select any of the four action options from a dropdown menu. This will perform the action on all items selected for inclusion in the batch edit. 
+When viewing and editing media, the user can see the extracted metadata and perform actions in the "Extract metadata" tab of individual items. However, you can also perform these actions via batch editing. After selecting the items you'd like to batch edit and going to the batch edit page, you can select any of the four action options from a dropdown menu. This will perform the action on all items selected for inclusion in the batch edit. 
 
 ![extractmetadata_batchedit](https://user-images.githubusercontent.com/84726696/138021786-dd736cda-aa92-4ec8-a498-1b43ae483a16.png)
 
