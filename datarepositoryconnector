@@ -1,10 +1,22 @@
-#Data Repository Connector
+# Data Repository Connector
 
 This module will allow users to import records and/or data files from several different data repository platforms: Dataverse, Zenodo & CKAN.
 
 Dataverse: you can find many Dataverse instances to test with at the bottom of this page: https://dataverse.org/metrics . You can usually find sub-'Dataverses' under the main instance from the search/browse page. The 'Dataverse Identifier' field in the module will be the string after '/dataverse/' in the sub-dataverse URL.
 Zenodo: Zenodo is one large shared repository; you can find the sub-'Communities' here: https://zenodo.org/communities/ . Again, the 'Zenodo Community ID' is found at the end of a communities URL
 CKAN: Used for large consortium, usually governmental data collections. You can find some examples here: https://ckan.org . I've been testing with US and Canada but feel free to try others. On most instances, clicking the search button with no input will return all records, then 'CKAN Organizations' can be found in the left sidebar. Once in an organization, the value you want follows 'organization=' in the URL
+
+##Configuration
+
+## Import Data
+
+### Basic Import Settings
+
+### Collections
+
+REVIEW/UPDATE/UNDO
+
+
 
 Testing Tasks
 
