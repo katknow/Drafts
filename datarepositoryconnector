@@ -15,14 +15,14 @@ SCREENSHOT
 ### Dataverse
 
 If you select Dataverse, you should see a screen with the following options:
-+ Main Dataverse URL: 
-+ Dataverse Identifier:
-+ Metadata Format:
-+ Limit:
-+ Import Files into Omeka S:
-+ Comment:
-+ Item Sets: 
-+ Sites:
++ Main Dataverse URL: The URL of the main Dataverse site. (This field is required)
++ Dataverse Identifier: The identifier of the Dataverse to import from. If blank, all datasets under Main Dataverse URL will be imported.
++ Metadata Format: The metadata format to export from Dataverse. The options for Dataverse are dcterms, oai_dc, and schema.org. The format must exist as a vocabulary in your Omeka instance before import. (This field is required)
++ Limit: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
++ Import Files into Omeka S: If checked, all data files associated with a record will be imported into Omeka S.
++ Comment: A note about the purpose or source of this import.
++ Item Sets: The items sets to import items into.
++ Sites: The sites to import items into.
 
 SCREENSHOT
 
@@ -31,13 +31,13 @@ Once you have filled out these fields, click "Submit".
 ### Zenodo
 
 If you select Zenodo, you should see a screen with the following options:
-+ Zenodo Community ID:
-+ Metadata Format: 
-+ Limit:
-+ Import Files into Omeka S:
-+ Comment:
-+ Item Sets:
-+ Sites:
++ Zenodo Community ID: The short string identifying which Zenodo community to import from. Found in the URL after https://zenodo.org/communities/ and before any search perameters. (This field is required)
++ Metadata Format: The metadata format to export from Zenodo.The option for Zenodo is oai_dc. The format must exist as a vocabulary in your Omeka instance before import.
++ Limit: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
++ Import Files into Omeka S: If checked, all data files associated with a record will be imported into Omeka S.
++ Comment: A note about the purpose or source of this import.
++ Item Sets: The items sets to import items into.
++ Sites: The sites to import items into.
 
 SCREENSHOT
 
@@ -46,13 +46,13 @@ Once you have filled out these fields, click "Submit".
 ### CKAN
 
 If you select CKAN, you should see a screen with the following options:
-+ Main CKAN URL:
-+ CKAN Organization:
-+ Limit:
-+ Import Files into Omeka S:
-+ Comment:
-+ Item Sets:
-+ Sites:
++ Main CKAN URL:The URL of the main Dataverse site. (This field is required)
++ CKAN Organization: The identifier of the CKAN organization to import from. If blank, all datasets under Main CKAN URL will be imported.
++ Limit: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
++ Import Files into Omeka S: If checked, all data files associated with a record will be imported into Omeka S.
++ Comment: A note about the purpose or source of this import.
++ Item Sets: The items sets to import items into.
++ Sites: The sites to import items into.
 
 SCREENSHOT
 
