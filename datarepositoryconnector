@@ -1,29 +1,83 @@
 # Data Repository Connector
 
-This module will allow users to import records and/or data files from several different data repository platforms: Dataverse, Zenodo & CKAN.
+The Data Repository Connector module allows users to import records and/or data files from several different data repository platforms: Dataverse, Zenodo and CKAN.
 
-Dataverse: you can find many Dataverse instances to test with at the bottom of this page: https://dataverse.org/metrics . You can usually find sub-'Dataverses' under the main instance from the search/browse page. The 'Dataverse Identifier' field in the module will be the string after '/dataverse/' in the sub-dataverse URL.
-Zenodo: Zenodo is one large shared repository; you can find the sub-'Communities' here: https://zenodo.org/communities/ . Again, the 'Zenodo Community ID' is found at the end of a communities URL
-CKAN: Used for large consortium, usually governmental data collections. You can find some examples here: https://ckan.org . I've been testing with US and Canada but feel free to try others. On most instances, clicking the search button with no input will return all records, then 'CKAN Organizations' can be found in the left sidebar. Once in an organization, the value you want follows 'organization=' in the URL
+To install Data Repository Connector, follow the instructions for Installing Modules on the Modules documentation.
 
-##Configuration
+You can view past imports by going to the Data Repository Connector tab on the left-hand navigation of the admin dashboard and clicking the Past Imports sub-tab.
 
 ## Import Data
 
-### Basic Import Settings
+To use the Data Repository Connector, navigate to the tab labelled DSpace Connector on the left-hand navigation of the admin dashboard. Then, you will have the option to select Dataverse, Zenodo, or CKAN.
 
-### Collections
+SCREENSHOT 
 
-REVIEW/UPDATE/UNDO
+### Dataverse
 
+If you select Dataverse, you should see a screen with the following options:
++ Main Dataverse URL: 
++ Dataverse Identifier:
++ Metadata Format:
++ Limit:
++ Import Files into Omeka S:
++ Comment:
++ Item Sets: 
++ Sites:
 
+SCREENSHOT
 
-Testing Tasks
+Once you have filled out these fields, click "Submit".
 
-For each service
+### Zenodo
 
-Test importing collections of various sizes, adjusting all configuration parameters and making sure they are reflected in the imported collection
-Test importing files into Omeka S. Note that many data file formats aren't on the list of supported media types/extensions in the Omeka S settings--this may cause an import error in which case you'll have to add the extensions/media types manually, or choose another collection
-If several metadata formats are available, try importing with all of them and ensure they show up accurately in the Omeka S item record
-(Dataverse/CKAN) Test importing an entire Dataverse or CKAN instance by not entering an identifier or organization when importing. Try to pick a smaller instance, one with less than 500 items if possible (might not be possible with CKAN). If encountering issues, try lowering the 'Limit' setting
-Test undoing an import for each Data Repository service
+If you select Zenodo, you should see a screen with the following options:
++ Zenodo Community ID:
++ Metadata Format: 
++ Limit:
++ Import Files into Omeka S:
++ Comment:
++ Item Sets:
++ Sites:
+
+SCREENSHOT
+
+Once you have filled out these fields, click "Submit".
+
+### CKAN
+
+If you select CKAN, you should see a screen with the following options:
++ Main CKAN URL:
++ CKAN Organization:
++ Limit:
++ Import Files into Omeka S:
++ Comment:
++ Item Sets:
++ Sites:
+
+SCREENSHOT
+
+Once you have filled out these fields, click "Submit".
+
+### Checking Import Status
+
+After you have hit submit, you can track the status of the import by navigating to the Data Repository Connector > Past Imports tab or the Jobs tab of the left-hand navigation on the admin dashboard.
+
++ Are your jobs starting and not completing? You might need to set the path for PHP so that your system can perform the background process to make the items.
+
+## Review Imports
+
+Go to the Data Repository Connector tab on the left-hand navigation of the admin dashboard, click on Data Repository Connector and then click on Past Imports, which should appear below the Data Repository Connector tab.
+
+This page displays a table of Past Imports, with a checkbox option to Undo, the Job ID for the import, any Comments made during import, the number of Items imported, the Date of the import, the import Status, and the Owner, or user who initiated the import.
+
+SCREENSHOT
+
+## Update Imported Resources
+
+To update resources created using the Data Repository Connector, simply re-run an import from the same source. The resources will be updated, not reimported. This allows you to use the Connector to sync data between your Data Repository and Omeka S installations.
+
+## Undo an Import
+
+To undo a completed import and remove all associated items, go to the Data Repository Connector tab on the left-hand navigation of the admin dashboard, click on Data Repository Connector and then click on Past Imports, which should appear below the Data Repository Connector tab.
+
+Check the box for each import you wish to undo and click submit.
