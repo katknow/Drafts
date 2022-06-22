@@ -12,52 +12,37 @@ To use the Data Repository Connector, navigate to the tab labelled Data Reposito
 
 <img width="266" alt="datarepoconnect_tabs" src="https://user-images.githubusercontent.com/84726696/174340090-3fad9bdd-1f3c-43f3-8934-3903e52981a4.png">
 
-### Dataverse
+### Shared Options
 
-If you select Dataverse, you should see a screen with the following options:
-+ Main Dataverse URL: The URL of the main Dataverse site. (This field is required)
-+ Dataverse Identifier: The identifier of the Dataverse to import from. If blank, all datasets under Main Dataverse URL will be imported.
-+ Metadata Format: The metadata format to export from Dataverse. The options for Dataverse are dcterms, oai_dc, and schema.org. The format must exist as a vocabulary in your Omeka instance before import. (This field is required)
-+ Limit: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
-+ Import Files into Omeka S: If checked, all data files associated with a record will be imported into Omeka S.
-+ Comment: A note about the purpose or source of this import.
-+ Item Sets: The items sets to import items into.
-+ Sites: The sites to import items into.
+Regardless of the service you have selected, you will be provided with the following options:
++ **Limit**: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
++ **Import Files into Omeka S**: If checked, all data files associated with a record will be imported into Omeka S.
++ **Comment**: A note about the purpose or source of this import.
++ **Item Sets**: The items sets to import items into.
++ **Sites**: The sites to import items into.
 
 <img width="1169" alt="datarepoconnect_dataverse" src="https://user-images.githubusercontent.com/84726696/174340123-b8cc62e7-dffd-49a4-b59f-258c48097fe5.png">
 
+Once you have filled out these fields as well as those specific to the option you have selected, be sure to click "Submit".
 
-Once you have filled out these fields, click "Submit".
+### Dataverse Options
 
-### Zenodo
+If you select Dataverse, you should see a screen with the following options:
++ **Main Dataverse URL**: The URL of the main Dataverse site. (This field is required)
++ **Dataverse Identifier*: The identifier of the Dataverse to import from. If blank, all datasets under Main Dataverse URL will be imported.
++ **Metadata Format**: The metadata format to export from Dataverse. The options for Dataverse are dcterms, oai_dc, and schema.org. The format must exist as a vocabulary in your Omeka instance before import. (This field is required)
+
+### Zenodo Options
 
 If you select Zenodo, you should see a screen with the following options:
-+ Zenodo Community ID: The short string identifying which Zenodo community to import from. Found in the URL after https://zenodo.org/communities/ and before any search parameters. (This field is required)
-+ Metadata Format: The metadata format to export from Zenodo. The option for Zenodo is oai_dc. The format must exist as a vocabulary in your Omeka instance before import.
-+ Limit: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
-+ Import Files into Omeka S: If checked, all data files associated with a record will be imported into Omeka S.
-+ Comment: A note about the purpose or source of this import.
-+ Item Sets: The items sets to import items into.
-+ Sites: The sites to import items into.
-
-<img width="1170" alt="datarepoconnect_zenodo" src="https://user-images.githubusercontent.com/84726696/174340165-7443f2b7-9021-497d-8d26-d65bf2a3ba9f.png">
-
-Once you have filled out these fields, click "Submit".
++ **Zenodo Community ID**: The short string identifying which Zenodo community to import from. Found in the URL after https://zenodo.org/communities/ and before any search parameters. (This field is required)
++ **Metadata Format**: The metadata format to export from Zenodo. The option for Zenodo is oai_dc. The format must exist as a vocabulary in your Omeka instance before import.
 
 ### CKAN
 
 If you select CKAN, you should see a screen with the following options:
-+ Main CKAN URL:The URL of the main Dataverse site. (This field is required)
-+ CKAN Organization: The identifier of the CKAN organization to import from. If blank, all datasets under Main CKAN URL will be imported.
-+ Limit: The maximum number of results to retrieve at once. If you notice errors or missing data, try lowering this number. Increasing it might make imports faster. (This field is required)
-+ Import Files into Omeka S: If checked, all data files associated with a record will be imported into Omeka S.
-+ Comment: A note about the purpose or source of this import.
-+ Item Sets: The items sets to import items into.
-+ Sites: The sites to import items into.
-
-<img width="1161" alt="datarepoconnect_ckan" src="https://user-images.githubusercontent.com/84726696/174340190-9b80baea-f4f9-4e42-8e58-8796e2976ca2.png">
-
-Once you have filled out these fields, click "Submit".
++ **Main CKAN URL**: The URL of the main Dataverse site. (This field is required)
++ **CKAN Organization**: The identifier of the CKAN organization to import from. If blank, all datasets under Main CKAN URL will be imported.
 
 ### Checking Import Status
 
