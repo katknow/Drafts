@@ -2,7 +2,7 @@
 
 The Data Repository Connector module allows users to import records and/or data files from several different data repository platforms: Dataverse, Zenodo and CKAN.
 
-To install Data Repository Connector, follow the instructions for Installing Modules on the Modules documentation.
+To install Data Repository Connector, follow the instructions for [Installing Modules](https://omeka.org/s/docs/user-manual/modules/#installing-modules) on the Modules documentation.
 
 You can view past imports by going to the Data Repository Connector tab on the left-hand navigation of the admin dashboard and clicking the Past Imports sub-tab.
 
@@ -29,7 +29,7 @@ Once you have filled out these fields as well as those specific to the option yo
 
 If you select Dataverse, you should see a screen with the following options:
 + **Main Dataverse URL**: The URL of the main Dataverse site. (This field is required)
-+ **Dataverse Identifier*: The identifier of the Dataverse to import from. If blank, all datasets under Main Dataverse URL will be imported.
++ **Dataverse Identifier**: The identifier of the Dataverse to import from. If blank, all datasets under **Main Dataverse URL** will be imported.
 + **Metadata Format**: The metadata format to export from Dataverse. The options for Dataverse are dcterms, oai_dc, and schema.org. The format must exist as a vocabulary in your Omeka instance before import. (This field is required)
 
 ### Zenodo Options
@@ -42,7 +42,7 @@ If you select Zenodo, you should see a screen with the following options:
 
 If you select CKAN, you should see a screen with the following options:
 + **Main CKAN URL**: The URL of the main Dataverse site. (This field is required)
-+ **CKAN Organization**: The identifier of the CKAN organization to import from. If blank, all datasets under Main CKAN URL will be imported.
++ **CKAN Organization**: The identifier of the CKAN organization to import from. If blank, all datasets under **Main CKAN URL** will be imported.
 
 ### Checking Import Status
 
