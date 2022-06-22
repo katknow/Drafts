@@ -9,7 +9,7 @@ The current PID services available for this module are:
 
 ## General Settings
 
-After installation, _Persistent Identifiers_ should appear in the left nav bar under **Modules**. The _Settings_ subpage features general settings:
+After installation, _Persistent Identifiers_ should appear in the left-hand navigation under **Modules**. The _Settings_ subpage features general settings, including:
 
 + **PID Service:** Select which of the available PID services to use for minting or extraction. Only one PID service may be used at a time to mint and assign PIDs to items. 
 + **Assign PID to New Items:** Check this box to automatically newly mint or extract an existing PID and assign to every new item in Omeka S, whether it is created in Omeka S or imported.
@@ -22,8 +22,8 @@ After installation, _Persistent Identifiers_ should appear in the left nav bar u
 When completing the configuration process for EZID, you will need to provide the:
 
 + **NAAN & Shoulder Namespace:** The Name Assigning Authority Number (NAAN) and ARK shoulder value uniquely assigned to an organization, which will appear in every ARK generated. 
-+ **EZID Username:** The EZID user with permission to create and update identifiers for the above namespace. 
-+ **EZID Password:** The password for the above EZID user. Note that this password does not "save", so if changes are made to the NAAN or Username, you must also re-enter the password before pressing "submit".
++ **EZID Username:** The EZID user who has permission to create and update identifiers for the above namespace. 
++ **EZID Password:** The password for the above EZID user. Note that this password does not save, so if changes are made to the **NAAN & Shoulder Namespace** or **EZID Username** you must also re-enter the password before pressing "submit".
 
 <img width="1164" alt="PID_EZIDconfig" src="https://user-images.githubusercontent.com/84726696/174157567-fb7e94ba-a28f-424e-a0eb-2c356bcebdba.png">
 
@@ -33,19 +33,18 @@ When completing the configuration process for DataCite, you will need to provide
 
 + **Repository DOI Prefix:** The prefix assigned to an institution's DOI minting and management repository. 
 + **DataCite Repository ID:** The unique identifier assigned to an institution's DOI repository. 
-+ **DataCite Password:** The password associated with the above DataCite Repository ID. Note that this password does not "save", so if changes are made to any field on the DataCite Configuration screen, you must also re-enter the password before pressing "submit".
++ **DataCite Password:** The password associated with the above **DataCite Repository ID**. Note that this password does not "save", so if changes are made to any field on the DataCite Configuration screen, you must also re-enter the password before pressing "submit".
 
 <img width="1164" alt="PID_DataCiteconfig" src="https://user-images.githubusercontent.com/84726696/174157976-2f20a9ba-e865-4f38-abb2-8565e886529b.png">
 
 ### DataCite Required Metadata
-DataCite requires five descriptive metadata values in order to generate a DOI: Title, Creators, Publisher, Publication Year, and Resource Type. All of these fields must be mapped to an existing metadata field that you select from the list of available metadata vocabularies in your Omeka S instance.
+DataCite requires five descriptive metadata values in order to generate a DOI: Title, Creators, Publisher, Publication Year, and Resource Type. All of these fields must be mapped to an existing metadata field that you select from the list of available vocabularies in your Omeka S instance.
 
 ## Minting and Removing PIDs
 
 To mint a PID from the item edit page, click on an item and select "Edit Item." Navigate to the Advanced tab, and click "Mint PID." 
 
 ![PID_mint](https://user-images.githubusercontent.com/84726696/174160959-4de50264-5f7a-4d5e-95f2-04934a991e80.png)
-
 
 After a few moments, the ARK or DOI should appear. The "Mint PID" button should now be a "Remove PID" button. Click here to remove the PID.
 
