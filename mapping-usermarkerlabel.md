@@ -53,11 +53,11 @@ When you are adding a label, you can also add an image to display on the marker 
 
 ![Marker selected with Image added. The media is also visible in the sidebar, along with an option for "no image"](../modules/modulesfiles/Mapping-addImage.png)
 
-Users can also contribute item locations via the Collecting[..modules/collecting.md] module. Once the module is installed, click Collecting in the left-hand navigation for the specific site and select "Add new form". Alternatively, you can click edit (pencil icon) to add the option to an existing form. Click "Add Prompt", which will open a drawer  and ask you to select a **Prompt Type** from the dropdown. Select Item Media, and when the **Media Type** dropdown appears select Map. Click "Add changes" and then "Save".  
+Users can also contribute item locations via the Collecting[..modules/collecting.md] module. Once the module is installed, click Collecting in the left-hand navigation for the specific site and select "Add new form". Alternatively, you can click edit (pencil icon) to add the option to an existing form. To allow users to submit location information via the Collecting form, click "Add Prompt". This will open a drawer and allow you to select a **Prompt Type** from the dropdown. Select Item Media, and when the **Media Type** dropdown appears select Map. Click "Add changes", then "Save".  
 
 ![Configuration options for creating a new prompt in a Collecting form. The dropdown for Prompt Type apears in the drawer.](https://user-images.githubusercontent.com/84726696/187744345-21263622-e478-4e25-8950-f58ece306364.png)
 
-On the public facing Collecting page, users will then be able to provide locations by clicking directly on the map and providing a label in the field directly below it. If the field below the map is left blank, the marker will be labeled with the contents of the Title field. 
+On the public facing Collecting page, users will then be able to provide location information for an item by clicking directly on the map and providing a label in the field directly below it. If the field below the map is left blank, the marker will be labeled with the contents of the Title field. 
 
 ![The public facing Collecting page includes a map for selecting a location. A field directly below the map allows users to input the marker label.](https://user-images.githubusercontent.com/84726696/187745073-67885c2b-4a93-482b-8a7a-310537d2a242.png)
 
