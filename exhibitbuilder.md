@@ -90,7 +90,9 @@ The **Text** block allows you to create a section of text which spans the width 
 
 The **File** block allows you to add larger files as a separate block.
 
-![Select block dialog with options as described above](../doc_files/plugin_images/eb_selectblock.png)
+The **Carousel** block creates a slidehow of item files as thumbnails, square thumbnails, or as the full size file. You can pair the file with a caption and/or the item title, and text can be positioned left, right, or center. You can feature up to ten items per slide and adjust the scrolling speed and duration of the slides.
+
+![Select block dialog with options as described above](https://user-images.githubusercontent.com/84726696/190927440-51c08b4c-cc30-4f03-a481-981901ea3a69.jpeg)
 
 To add a content block, select the layout you want in the New Block dialog box. Once you have selected the kind you want, click the "Add new content block" button. You will have a new block on the page to configure your content.
 
@@ -164,8 +166,22 @@ The **File** block has the following options, all of which are drop-down menus (
 - File Position (left, right, center): position of the file relative to page margins.
 - File Size (full-size, thumbnail, square thumbnail): 
 - Captions position (center, left, right): the position of the file's caption relative to page margins (not the file)
-
 ![File block layout options](../doc_files/plugin_images/eb_fLayout.png)
+
+The **Carousel** block has the following options, which are a mix of text boxes, drop-down menus, and checkboxes:
+
+-Carousel title: 
+-Items per slide (1-10): the number of items represented on each slide in the carousel.
+-Item file size (thumbnail, square thumbnail, full size): 
+-Show item title: when checked, the item title will be included on the slide along with the file.
+-Overlay caption: when checked, the caption will be overlaid on the file (which may require adjusting the CSS settings).
+-Caption/title position (center, left, right): the position of included text relative to the file.
+-Stretch image to fill (none, fill width, fill height, fill entire slide): 
+-Scrolling speed: sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400.
+-Auto slide duration: Time in milliseconds to pause before auto advance. Set to 0 to turn off.
+-Loop: when checked, the carousel will continually replay.
+-Fade between slides: when checked, adds a fade effect between slides but only works with 1 item per slide.
+![Carousel block layout opion](https://user-images.githubusercontent.com/84726696/190927394-652bc8e5-7965-43e1-9e2d-5c628da8f69c.jpeg)
 
 ### Additional Layouts
 Some plugins include their own Exhibit Builder content block layouts.
