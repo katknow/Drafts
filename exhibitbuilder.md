@@ -170,17 +170,18 @@ The **File** block has the following options, all of which are drop-down menus (
 
 The **Carousel** block has the following options, which are a mix of text boxes, drop-down menus, and checkboxes:
 
--Carousel title: 
--Items per slide (1-10): the number of items represented on each slide in the carousel.
--Item file size (thumbnail, square thumbnail, full size): 
--Show item title: when checked, the item title will be included on the slide along with the file.
--Overlay caption: when checked, the caption will be overlaid on the file (which may require adjusting the CSS settings).
--Caption/title position (center, left, right): the position of included text relative to the file.
--Stretch image to fill (none, fill width, fill height, fill entire slide): 
--Scrolling speed: sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400.
--Auto slide duration: Time in milliseconds to pause before auto advance. Set to 0 to turn off.
--Loop: when checked, the carousel will continually replay.
--Fade between slides: when checked, adds a fade effect between slides but only works with 1 item per slide.
+- Carousel title: 
+- Items per slide (1-10): the number of items represented on each slide in the carousel.
+- Item file size (thumbnail, square thumbnail, full size): 
+- Show item title: when checked, the item title will be included on the slide along with the file.
+- Overlay caption: when checked, the caption will be overlaid on the file (which may require adjusting the CSS settings).
+- Caption/title position (center, left, right): the position of included text relative to the file.
+- Stretch image to fill (none, fill width, fill height, fill entire slide): 
+- Scrolling speed: sets the speed for the scrolling animation. May be "fast", "slow", or a time in milliseconds. Default is 400.
+- Auto slide duration: Time in milliseconds to pause before auto advance. Set to 0 to turn off.
+- Loop: when checked, the carousel will continually replay.
+- Fade between slides: when checked, adds a fade effect between slides but only works with 1 item per slide.
+
 ![Carousel block layout opion](https://user-images.githubusercontent.com/84726696/190927394-652bc8e5-7965-43e1-9e2d-5c628da8f69c.jpeg)
 
 ### Additional Layouts
