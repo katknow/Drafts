@@ -18,7 +18,7 @@ Once you have selected all the inverse properties for that resource template, cl
 
 ## Adding Inverse Properties to Items
 
-To add an inverse property to an an item, click "Omeka resource" in the field for which you would like to add the inverse property. Then, click "Item" and select the item you wish to add from the drawer. After selecting the item, be sure to click "Select resource" at the bottom of the drawer to add the item to the metadata field.
+To add an inverse property to an item, click "Omeka resource" in the appropriate metadata field. Then, click "Item" and select the item you wish to add from the drawer. After selecting the item, be sure to click "Select resource" at the bottom of the drawer to add the item to the metadata field.
 
 ![inversepropitem](https://user-images.githubusercontent.com/84726696/193492603-3dcb52dc-b1d2-452d-bd33-f7bd6e9fc9d6.png)
 
