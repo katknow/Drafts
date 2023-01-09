@@ -43,6 +43,8 @@ On the edit page, you can add items via the following fields:
  - Search by Exhibit
  - Item Relations
 
+You can add items using one or any combination of these fields. For instance, if you know that the majority of the content for the timeline is contained in a single exibit you would want to select that exhibit in the dropdown. If you wanted to be sure you did not miss any relevant items that were not included in that exhibit, you may want to use the "Specific Fields" search to be sure any items mentioning the topic in the metadata is included. Or, you may want to search by a specific user if you know they are primarily uploading material related to the topic of your timeline. By adjusting the fields you can expand or narrow the scope of items on your timeline.
+
 Once you have filled in all the desired search fields, click Search for Items. This will add all relevant items to your timeline.
 
 ![image](https://user-images.githubusercontent.com/84726696/210872477-71d81083-44e3-498f-a382-b429a66f2f22.png)
@@ -51,8 +53,4 @@ To further add or remove items from your timeline, you can adjust you query by c
 
 ## Displaying your Timeline
 
-There are a couple different methods you can use to view and/or display your timeline. You can add a timeline to an exhibit using the Exhibit Builder plugin or by using shortcode.
-
-### Displaying Timelines with Exhibit Builder
-
-### Displaying Timelines using Shortcode
+There are a couple different methods you can use to view and/or display your timeline. Timeline integrates with the Exhibit Builder plugin by adding a new Timeline block option to exhibit pages. You can also add a timeline to a page using Shortcode. 
